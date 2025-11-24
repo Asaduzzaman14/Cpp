@@ -1,13 +1,13 @@
-#include<iostream>
+#include <iostream>
 
 using namespace std;
 
- int main(){
-
+int main()
+{
 
     int x = 99;
 
-// if else
+    // if else
 
     // if(x%2==0){
     //     cout << "Even\n";
@@ -16,12 +16,8 @@ using namespace std;
     //     cout << "Odd\n";
     // }
 
-
-
     // turnary
-    (x%2==0) ? cout << "Even\n" : cout << "Odd\n";
+    (x % 2 == 0) ? cout << "Even\n" : cout << "Odd\n";
 
     return 0;
- }
-
-
+}
